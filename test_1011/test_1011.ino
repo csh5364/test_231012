@@ -36,13 +36,13 @@ void setup() {
 
 void loop() {
   // X와 Y 축을 각각 다른 거리만큼 이동
-  moveXDistance(100, 0);   // X 축은 100 mm만큼 이동
+  moveXDistance(-100, 0);   // X 축은 100 mm만큼 이동
   moveYDistance(100, 0);  // Y 축은 -100 mm만큼 이동
   delay(delayBetweenMovements);
 
   // X와 Y 축을 각각 다른 거리만큼 이동
-  moveXDistance(-100, 0);  // X 축은 -100 mm만큼 이동
-  moveYDistance(-100, 0);   // Y 축은 100 mm만큼 이동
+  moveXDistance(100, 0);  // X 축은 -100 mm만큼 이동
+  moveYDistance(100, 0);   // Y 축은 100 mm만큼 이동
   delay(delayBetweenMovements);
 
   moveXYDistance(100, 50, 0);
