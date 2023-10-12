@@ -16,6 +16,7 @@ int initialYPosition = 0;
 const int endStopXPin = 9;   // X 축 엔드 스톱 스위치 핀 번호
 const int endStopYPin = 10;  // Y 축 엔드 스톱 스위치 핀 번호
 
+// here is setup. by seungbum kim
 void setup() {
   pinMode(EN, OUTPUT);
   digitalWrite(EN, LOW);  //LOW 상태로 유지해야함
