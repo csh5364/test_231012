@@ -45,8 +45,8 @@ void loop() {
   moveYDistance(100, 0);   // Y 축은 100 mm만큼 이동
   delay(delayBetweenMovements);
 
-  moveXYDistance(100, 50, 0);
-  moveXYDistance(-100, -50, 0);
+  moveXYDistance(50, 50, 0);
+  moveXYDistance(-50, -50, 0);
   delay(delayBetweenMovements);
 }
 
